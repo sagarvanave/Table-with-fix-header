@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style>
+      thead {
+          display: table-row;
+      }
+      tbody {
+          overflow-y: scroll;
+          display: block;
+          height: 400px;
+      }
+        th{
+          background-color: lightgrey;
+          border-width: 1px;
+          border-top: 0;
+          border-bottom-width: 1px;
+          font-family: "Poppins", sans-serif;
+          font-weight: 500;
+        }
+
+        table{
+          border: 1px solid lightgrey;
+          border-collapse: collapse;
+          border-spacing: 2px;
+          border-color: grey;
+          width:1000px;
+        }
+        th,td
+        {
+          padding: 8px 16px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="table-responsive tablediv" style="overflow:auto;">
+        <table class="table table-striped" id="dataTable">
+        <thead>
+          <tr>
+            <th style="width: 37px;">Sr. No</th>
+            <th style="width: 100px;">Emp. Code</th>
+            <th style="width: 150px;">Name</th>
+            <th style="width: 150px;">Shift</th>
+            <th style="width: 125px;">In-Out Time</th>
+            <th  style="width: 80px;">Duration</th>
+            <th style="width: 120px;">Status</th>
+          </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td  style="width: 37px;">1</td>
+        <td  style="width: 100px;">10125</td>
+        <td style="width: 150px;">ABC ABC</td>
+        <td style="width: 150px;">1st Shift(07:00 AM-03:00 PM)</td>
+        <td style="width: 125px;">2:39 PM - 10:47 PM</td>
+        <td style="width: 80px;">8 h 8 m</td>
+        <td style="width: 120px;">Present</td>
+        </tr>
+        <tr>
+        <td  style="width: 37px;">1</td>
+        <td  style="width: 100px;">10125</td>
+        <td style="width: 150px;">ABC ABC</td>
+        <td style="width: 150px;">1st Shift(07:00 AM-03:00 PM)</td>
+        <td style="width: 125px;">2:39 PM - 10:47 PM</td>
+        <td style="width: 80px;">8 h 8 m</td>
+        <td style="width: 120px;">Present</td>
+        </tr>
+      </tbody>
+      </table>
+
+        </div>
+  </body>
+</html>
